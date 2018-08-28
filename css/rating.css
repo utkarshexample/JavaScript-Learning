@@ -1,0 +1,57 @@
+
+  .banner{border-style: ridge;  
+    color: black;
+    border-radius: 8px;
+    font-family:    Arial, Helvetica, sans-serif;
+        
+    }
+    body{background: black;}
+
+    .main{text-align: center;
+            background: purple;
+            border-style: ridge;
+            border-radius: 8px;
+            padding: 20px;
+            display: block;
+            box-sizing: border-box; }
+
+  #errorname{color: red;}
+  .containerMain{
+         border-radius: 4px;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;}
+  
+  .container {
+    background: purple;
+   padding: 20px;
+   border-radius: 8px;
+    text-align: center;
+    border-style: ridge;
+    width: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .checked {
+    color: plum;}
+    
+  
+    .button {
+        background: purple  ; 
+        border-radius: 8px;
+        color: black ;
+        padding: 15px 15px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+  footer {
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background: plum;
+    text-align: center;
+}
