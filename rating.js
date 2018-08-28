@@ -18,11 +18,11 @@ function rate() {
     var fs, hs;
 
 
-    if (a >= 5) {
+    if (a == 5) {
         fs = aP.length;
         hs = 0;
     }
-    if (a == 4.5) {
+    if (5>a && a>4 ) {
         fs = aP.length - 1;
         hs = 1;
     }
@@ -30,7 +30,7 @@ function rate() {
         fs = aP.length - 1;
         hs = 0;
     }
-    if (a == 3.5) {
+    if (4>a && a>3) {
         fs = aP.length - 2;
         hs = 1;
     }
@@ -38,7 +38,7 @@ function rate() {
         fs = aP.length - 2;
         hs = 0;
     }
-    if (a == 2.5) {
+    if (3>a && a>2) {
         fs = aP.length - 3;
         hs = 1;
     }
@@ -46,7 +46,7 @@ function rate() {
         fs = aP.length - 3;
         hs = 0;
     }
-    if (a == 1.5) {
+    if (a<2 && a>1 ) {
         fs = aP.length - 4;
         hs = 1;
     }
